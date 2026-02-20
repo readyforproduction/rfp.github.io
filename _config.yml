@@ -1,0 +1,36 @@
+title: RFP Blog
+email: contact@readyforproduction.com
+description: >-
+  Ready for Production - a blog about software engineering,
+  best practices, and building production-ready systems.
+baseurl: ""
+url: "https://readyforproduction.github.io"
+
+# Social links
+github_username: readyforproduction
+
+# Theme
+theme: minima
+minima:
+  skin: auto
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
